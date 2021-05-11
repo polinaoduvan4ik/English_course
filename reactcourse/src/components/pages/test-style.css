@@ -1,0 +1,41 @@
+.Test_main{
+    height: 560px;
+    width: 1235px;
+    background-color: #9FCFCC;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Test_info{
+    margin-top: 60px;
+    height: 400px;
+    width: 715px;
+    display: inline-block;
+}
+
+.Test_question{
+    display: inline-block;
+    width: 680px;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.Test_reply{
+    display: inline-block;
+    height: 60px;
+    width: 680px;
+    margin-top: 15px;
+    background-color: #93c0bdc2;
+}
+
+.Arrows{
+    height: 85px;
+    display: inline-block;
+}
