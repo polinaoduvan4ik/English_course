@@ -1,0 +1,181 @@
+.Home{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+:before
+:after{
+    box-sizing: border-box;
+}
+
+.Container{
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.Header{
+    width: 1260px;
+    height: 70px;
+    position:absolute;
+    margin-left: 8.5%;
+    background-color: #d3c5c5e8;
+}
+
+.Up_string{
+    margin-bottom: 10px;
+}
+
+.Logo{
+    font-size: 45px;
+    font-weight: 500;
+    color: #503022;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    display: inline;
+    
+}
+
+.Authorisation{
+    display: inline;
+    position: fixed;
+    top: 25px;
+    right: 150px;
+    text-decoration: none;
+    color: black;
+}
+
+.Authorisation:hover{
+    color: #552e1d;
+}
+
+.Nav{
+    font-size: 28px;
+}
+
+.Nav_link{
+    display: inline-block;
+    margin: 15px 30px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+
+    transition: color .1s linear;
+}
+
+.Nav_link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    opacity: 0;
+
+    background-color: #552e1d;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: opacity .1s linear;
+}
+
+.Nav_link:hover{
+    color: #552e1d;
+}
+
+/*Difference after click*/
+.Nav_link:hover:after{
+    opacity: 1;
+}
+
+.MainContainer{
+    margin-top: 150px;   
+}
+
+.Course{
+    font-size: 75px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
+}
+
+.Test_button{
+    height: 75px;
+    width: 675px;
+    background-color: #919F89;
+    margin-left: 28%;
+    position: relative;    
+   
+}
+
+.Do_test{
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: none;
+    color:black;
+    position: relative;
+    display: inline-block;
+    margin: 15px 30px;
+    
+}
+
+
+.Do_test:hover{
+    color: #552e1d;
+}
+
+/*Difference after click*/
+.Do_test:hover:after{
+    opacity: 1;
+}
+
+/*.Circles{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 60px;
+}*/
+
+.Circle_1 {
+    width: 120px;
+    height: 120px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border-radius: 75px;
+    background: #AAD1D9;
+    display: inline-block;
+    margin: 90px 60px;
+}
+
+.Circle_2 {
+    width: 120px;
+    height: 120px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border-radius: 75px;
+    background: #E2BAB9;
+    display: inline-block;
+    margin: 90px 60px;
+}
+
+.Circle_3 {
+    width: 120px;
+    height: 120px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border-radius: 75px;
+    background: #EDCC8B;
+    display: inline-block;
+    margin: 90px 60px;
+}
+
+.Circle_4 {
+    width: 120px;
+    height: 120px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    border-radius: 75px;
+    background: #C4C4C4;
+    display: inline-block;
+    margin: 90px 60px;
+}

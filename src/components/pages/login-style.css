@@ -1,0 +1,36 @@
+.Login_main{
+    height: 210px;
+    width: 540px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: left;
+}
+
+.Info{
+    height: 80px;
+    font-size: 20px;
+}
+
+.Input_blok{
+    height: 50px;
+    background-color: #ebd18e67;
+}
+
+.Input{
+    height: 50px;
+    width: 540px;
+    background-color: #ebd18e67;
+    border: none;
+    font-size: 18px;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.Button{
+    width: 180px;
+}
